@@ -157,7 +157,7 @@ Other Style Guides
     // good
     const superman = {
       defaults: { clark: 'kent' },
-      hidden: true,
+      hidden: true
     };
     ```
 
@@ -171,12 +171,12 @@ Other Style Guides
 
     // bad
     const superman = {
-      klass: 'alien',
+      klass: 'alien'
     };
 
     // good
     const superman = {
-      type: 'alien',
+      type: 'alien'
     };
     ```
 
@@ -194,7 +194,7 @@ Other Style Guides
     // bad
     const obj = {
       id: 5,
-      name: 'San Francisco',
+      name: 'San Francisco'
     };
     obj[getKey('enabled')] = true;
 
@@ -202,7 +202,7 @@ Other Style Guides
     const obj = {
       id: 5,
       name: 'San Francisco',
-      [getKey('enabled')]: true,
+      [getKey('enabled')]: true
     };
     ```
 
